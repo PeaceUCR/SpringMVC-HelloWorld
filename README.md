@@ -39,4 +39,4 @@ return type (https://stackoverflow.com/questions/18607290/which-return-type-use-
 ModelAndView(http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/ModelAndView.html)
 
 
-# How to use: open by eclipse.
+# How to use: open by eclipse,right click the project name, run on server.
