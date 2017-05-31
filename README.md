@@ -15,12 +15,16 @@ In Spring MVC , the core dispatcher component is the DispatcherServlet, which ac
 
 2.in "servlet-name"-servlet.xml file,  
 
-context:component-scan base-package=""
+context:component-scan base-package="" tag
+
 tells Spring to scan those packages for Annotations.
 
 
-The "mvc:annotationDriven" tag essentially sets you your Spring context to allow for dispatching requests to Controllers.
-The tag will configure two beans DefaultAnnotationHandlerMapping and AnnotationMethodHandlerAdapter.
+The "mvc:annotationDriven" tag
+
+<mvc:annotation-driven /> declares explicit support for annotation-driven MVC controllers (i.e. @RequestMapping, @Controller, although support for those is the default behaviour), as well as adding support for declarative validation via @Valid and message body marshalling with @RequestBody/ResponseBody.
+https://stackoverflow.com/questions/3977973/whats-the-difference-between-mvcannotation-driven-and-contextannotation
+
 
 "bean"
 
