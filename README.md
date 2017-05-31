@@ -1,5 +1,8 @@
 # SpringMVC-HelloWorld Application
 
+
+![screenshot1](http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/images/mvc.png.pagespeed.ce.tmIzOTr1gg.png)
+
 https://www.udemy.com/javaspring/learn/v4/t/lecture/432830?start=0
 
 http://www.mkyong.com/spring-mvc/spring-mvc-hello-world-example/
