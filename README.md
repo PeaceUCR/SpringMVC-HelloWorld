@@ -10,7 +10,7 @@ http://www.mkyong.com/spring-mvc/spring-mvc-hello-world-example/
 http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/mvc.html#mvc-config
 
 
-Note
+# Note
 In Spring MVC , the core dispatcher component is the DispatcherServlet, which act as the front-controller (design pattern). Every web request has to go through this DispatcherServlet, and the DispatcherServlet will dispatch the web request to suitable handlers.
 
 1.in the web.xml, you define servlet-name and servlet-class (DispatcherServlet),then the Spring XML Configuration will be in "servlet-name"-servlet.xml file.
