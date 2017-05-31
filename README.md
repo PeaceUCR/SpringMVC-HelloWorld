@@ -15,14 +15,15 @@ In Spring MVC , the core dispatcher component is the DispatcherServlet, which ac
 
 2.in "servlet-name"-servlet.xml file,  
 
-<context:component-scan base-package="" /> 
+context:component-scan base-package=""
 tells Spring to scan those packages for Annotations.
 
 
-The <mvc:annotationDriven> tag essentially sets you your Spring context to allow for dispatching requests to Controllers.
+The "mvc:annotationDriven" tag essentially sets you your Spring context to allow for dispatching requests to Controllers.
 The tag will configure two beans DefaultAnnotationHandlerMapping and AnnotationMethodHandlerAdapter.
 
-<bean>
+"bean"
+
 Spring's view resolution is extremely flexible. A Controller is typically responsible for preparing a model Map with data and selecting a view name but it can also write directly to the response stream and complete the request. View name resolution is highly configurable through file extension or Accept header content type negotiation, through bean names, a properties file, or even a custom ViewResolver implementation. 
 from http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/mvc.html#mvc-config
 
