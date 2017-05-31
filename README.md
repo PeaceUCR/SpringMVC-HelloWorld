@@ -24,8 +24,8 @@ The tag will configure two beans DefaultAnnotationHandlerMapping and AnnotationM
 
 "bean"
 
-Spring's view resolution is extremely flexible. A Controller is typically responsible for preparing a model Map with data and selecting a view name but it can also write directly to the response stream and complete the request. View name resolution is highly configurable through file extension or Accept header content type negotiation, through bean names, a properties file, or even a custom ViewResolver implementation. 
-from http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/mvc.html#mvc-config
+InternalResourceViewResolver is used to resolve “internal resource view” (in simple, it’s final output, jsp or htmp page) based on a predefined URL pattern. In additional, it allow you to add some predefined prefix or suffix to the view name (prefix + view name + suffix), and generate the final view page URL. 
+https://www.mkyong.com/spring-mvc/spring-mvc-internalresourceviewresolver-example/
 
 3. in the HelloWorldController.java
 
