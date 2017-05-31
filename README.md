@@ -14,16 +14,16 @@ In Spring MVC , the core dispatcher component is the DispatcherServlet, which ac
 
 2.in "servlet-name"-servlet.xml file,  
 
-$context:component-scan base-package="" /$ 
+{context:component-scan base-package="" } 
 tells Spring to scan those packages for Annotations.
 
 
-The $mvc:annotationDriven$ tag 
+The {mvc:annotationDriven} tag 
 
-$mvc:annotation-driven /$ declares explicit support for annotation-driven MVC controllers (i.e. @RequestMapping, @Controller, although support for those is the default behaviour), as well as adding support for declarative validation via @Valid and message body marshalling with @RequestBody/ResponseBody.
+{mvc:annotation-driven } declares explicit support for annotation-driven MVC controllers (i.e. @RequestMapping, @Controller, although support for those is the default behaviour), as well as adding support for declarative validation via @Valid and message body marshalling with @RequestBody/ResponseBody.
 https://stackoverflow.com/questions/3977973/whats-the-difference-between-mvcannotation-driven-and-contextannotation
 
-$bean$
+{bean}
  InternalResourceViewResolver is used to resolve “internal resource view” (in simple, it’s final output, jsp or htmp page) based on a predefined URL pattern. In additional, it allow you to add some predefined prefix or suffix to the view name (prefix + view name + suffix), and generate the final view page URL. 
 https://www.mkyong.com/spring-mvc/spring-mvc-internalresourceviewresolver-example/
 
@@ -39,6 +39,5 @@ change the value in RequestMapping,like \hello, then in the browser, you have to
 return type (https://stackoverflow.com/questions/18607290/which-return-type-use-in-spring-mvc-in-requestmapping-method)
 
 ModelAndView(http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/ModelAndView.html)
-
 
 # How to use: open by eclipse,right click the project name, run on server.
