@@ -17,6 +17,13 @@ In Spring MVC , the core dispatcher component is the DispatcherServlet, which ac
 
 2.in "servlet-name"-servlet.xml file,  
 
+https://www.tutorialspoint.com/spring/spring_web_mvc_framework.htm
+The web.xml file will be kept in the WebContent/WEB-INF directory of your web application. Upon initialization of HelloWeb DispatcherServlet, the framework will try to load the application context from a file named [servlet-name]-servlet.xml located in the application's WebContent/WEB-INFdirectory. In this case, our file will be HelloWebservlet.xml.
+
+Next, <servlet-mapping> tag indicates what URLs will be handled by which DispatcherServlet. Here all the HTTP requests ending with .jsp will be handled by the HelloWeb DispatcherServlet.
+
+If you do not want to go with default filename as [servlet-name]-servlet.xml and default location as WebContent/WEB-INF, you can customize this file name and location by adding the servlet listener ContextLoaderListener in your web.xml file as follows −
+
 {context:component-scan base-package="" } 
 tells Spring to scan those packages for Annotations.
 
