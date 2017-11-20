@@ -1,7 +1,7 @@
 # SpringMVC-HelloWorld Application
 
 
-![screenshot1](http://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/images/mvc.png.pagespeed.ce.tmIzOTr1gg.png)
+![screenshot1](https://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/images/mvc.png)
 
 https://www.udemy.com/javaspring/learn/v4/t/lecture/432830?start=0
 
